@@ -1,5 +1,5 @@
 """
-BizMl: A Python library for predictive analytics and business forecasting.
+BizREP: A Python library for predictive analytics and business forecasting.
 """
 
 import pandas as pd
