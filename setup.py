@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-setup(
    setup(
     name="Bizrep", 
     version="0.1", 
