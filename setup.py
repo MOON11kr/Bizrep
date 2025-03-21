@@ -1,16 +1,16 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="Bizrep", 
-    version="0.1", 
-    author="karisham m patel",  
-    author_email="karishma2o@gmil.com",  
-    description="A Python library for predictive analytics and business forecasting.", 
-    long_description=open("README.md").read(), 
-    long_description_content_type="text/markdown",  
+    name="bizrep",
+    version="0.1",
+    author="Karishma M Patel",
+    author_email="karishma2p@gmail.com",
+    description="A Python library for predictive analytics and business forecasting.",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/MOON11kr/Bizrep",
-    packages=find_packages(), 
-    install_requires=[  # List of dependencies
+    py_modules=["bizrep"],  # Specify the single Python file
+    install_requires=[
         "pandas",
         "scikit-learn",
         "prophet",
@@ -20,10 +20,10 @@ setup(
         "plotly",
         "dash",
     ],
-    classifiers=[  
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",  # Minimum Python version required
+    python_requires=">=3.6",
 )
